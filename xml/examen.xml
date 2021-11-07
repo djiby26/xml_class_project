@@ -1,0 +1,104 @@
+<!DOCTYPE examen SYSTEM "examen.dtd">
+<examen codeCours="1">
+	<titre>
+		XML:Syntaxe-DTD
+	</titre>
+	<date mois="Janvier" annee="2019" />
+	<questions>
+		<question>
+			<partie>
+				<partie>
+					A.Quel est le nom de l'élément-racine? 
+					B.Quel est le contenu de l'élément «president»? 
+					C.Quel est le contenu de l'élément «comptable»? 
+					D.Quel est le contenu de l'élément «adjoint»? 
+					E.Combien d'éléments «president» peut contenir un element «compagnie»?
+				</partie>
+			</partie>
+		</question>
+		<question>
+			<partie>
+				<partie>
+					A.Quel est le nom de l'élément-racine? 
+					B.Quel est le contenu de l'élément «president»? 
+					C.Quel est le contenu de l'élément «comptable»? 
+					D.Quel est le contenu de l'élément «adjoint»? 
+					E.Combien d'éléments «president» peut contenir un element «compagnie»?
+				</partie>
+			</partie>
+		</question>
+		<question>
+			<partie>
+				<partie>
+					A.Quel est le nom de l'élément-racine? 
+					B.Quel est le contenu de l'élément «president»? 
+					C.Quel est le contenu de l'élément «comptable»? 
+					D.Quel est le contenu de l'élément «adjoint»? 
+					E.Combien d'éléments «president» peut contenir un element «compagnie»?
+				</partie>
+			</partie>
+		</question>
+		<question>
+			<partie>
+				Au Cinéma!
+				Les Brigades du Tigre 
+				- Policier (2h 5min)
+				- De Jérôme Cornuau
+				- VF (en Français)
+				- Avec: C. Cornillac, D. Kruger, E. Baer
+				- Année: 2005
+				- Presse : 3/5 Spectateurs : 4/5
+				Les aventures du commissaire Valentin et des inspecteurs Terrasson et Pujol, 
+				membres des Brigades mobiles, corps spécial de la police française créé avant 
+				la Première Guerre mondiale.
+				Mer, Sam : 14:00 | 16:40 | 19:40 | 22:10
+				Jeu, Ven, Lun, Mar : 14:00 | 19:40 | 22:10
+				Dim : 10:20 | 14:00 | 16:40 | 20:20
+				<partie>
+					Dans cet exercice on se propose de concevoir un système permettant de publier le programme d'un 
+					cinéma sur Internet. Le programme est constitué du descriptif de chaque film à l'affiche pendant la 
+					semaine. Comme dans l'exemple, ci-après, chaque film est décrit par son titre, sa durée, son genre, son 
+					réalisateur, ses acteurs, année de production sa langue de diffusion ainsi que par un court paragraphe 
+					décrivant l'intrigue. Cette description est complétée par la liste des horaires de projection
+				</partie>
+				<partie>
+					Proposer un arbre XML pour représenter le film décrit ci-dessus (Les brigades du tigres)
+				</partie>
+				<partie>
+					
+				</partie>
+			</partie>
+		</question>
+		<question>
+			<partie>
+				Au Cinéma!
+				Les Brigades du Tigre 
+				- Policier (2h 5min)
+				- De Jérôme Cornuau
+				- VF (en Français)
+				- Avec: C. Cornillac, D. Kruger, E. Baer
+				- Année: 2005
+				- Presse : 3/5 Spectateurs : 4/5
+				Les aventures du commissaire Valentin et des inspecteurs Terrasson et Pujol, 
+				membres des Brigades mobiles, corps spécial de la police française créé avant 
+				la Première Guerre mondiale.
+				Mer, Sam : 14:00 | 16:40 | 19:40 | 22:10
+				Jeu, Ven, Lun, Mar : 14:00 | 19:40 | 22:10
+				Dim : 10:20 | 14:00 | 16:40 | 20:20
+				<partie>
+					Dans cet exercice on se propose de concevoir un système permettant de publier le programme d'un 
+					cinéma sur Internet. Le programme est constitué du descriptif de chaque film à l'affiche pendant la 
+					semaine. Comme dans l'exemple, ci-après, chaque film est décrit par son titre, sa durée, son genre, son 
+					réalisateur, ses acteurs, année de production sa langue de diffusion ainsi que par un court paragraphe 
+					décrivant l'intrigue. Cette description est complétée par la liste des horaires de projection
+				</partie>
+				<partie>
+					Proposer un arbre XML pour représenter le film décrit ci-dessus (Les brigades du tigres)
+				</partie>
+				<partie>
+					
+				</partie>
+			</partie>
+		</question>
+	</questions>
+</examen>
