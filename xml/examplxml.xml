@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!DOCTYPE examen SYSTEM "examen.dtd">
+<examen codeCours="2">
+  <titre>Data Mining</titre>
+  <date mois="Novembre" annee="2021"/>
+  <questions>
+    <question>
+      <partie> SI on nous demande de calculer un gain avec un attribut donn&#xE9;,  Ici, income level prend 3 valeurs : Low, Medium, High     Gain(T,I) = E(T) - (2/10E(L)+E6/10(M)+2/10E(H))</partie>
+      <partie>Dans ce cas on 14 observations, 9 oui et 5 non. Pour d&#xE9;terminer si on a oui ou non dans notre noeud, on prend celui qui est le plus grand. Exog&#xE8;ne =&gt; aidant &#xE0; la pr&#xE9;diction</partie>
+      <partie> interpr&#xE9;ter un arbre revient &#xE0; dire il y a combien de noeuds. On explique jusqu'&#xE0; nsplit=2. On a les variables qualitatives et les variables quantitatives. Les variables quantitatives peuvent &#xEA;tre continues ou discr&#xE8;tes. </partie>
+      <partie>    SI on nous demande de calculer un gain avec un attribut donn&#xE9;,  Ici, income level prend 3 valeurs : Low, Medium, High     Gain(T,I) = E(T) - (2/10E(L)+E6/10(M)+2/10E(H))</partie>
+    </question>
+    <question>
+      <partie>Dans ce cas on 14 observations, 9 oui et 5 non. Pour d&#xE9;terminer si on a oui ou non dans notre noeud, on prend celui qui est le plus grand. Exog&#xE8;ne =&gt; aidant &#xE0; la pr&#xE9;diction</partie>
+      <partie> interpr&#xE9;ter un arbre revient &#xE0; dire il y a combien de noeuds. On explique jusqu'&#xE0; nsplit=2. On a les variables qualitatives et les variables quantitatives. Les variables quantitatives peuvent &#xEA;tre continues ou discr&#xE8;tes. </partie>
+      <partie> : La variable est discr&#xE8;te, l'arbre n'est pas binaire.         - B : La variable est continue et on a fait la discr&#xE9;ditation.         - C : La variable est discr&#xE8;te, l'arbre est binaire.         </partie>
+      <partie>    SI on nous demande de calculer un gain avec un attribut donn&#xE9;,  Ici, income level prend 3 valeurs : Low, Medium, High     Gain(T,I) = E(T) - (2/10E(L)+E6/10(M)+2/10E(H))</partie>
+    </question>
+    <question>
+      <partie>Dans ce cas on 14 observations, 9 oui et 5 non. Pour d&#xE9;terminer si on a oui ou non dans notre noeud, on prend celui qui est le plus grand. Exog&#xE8;ne =&gt; aidant &#xE0; la pr&#xE9;diction</partie>
+      <partie> interpr&#xE9;ter un arbre revient &#xE0; dire il y a combien de noeuds. On explique jusqu'&#xE0; nsplit=2. On a les variables qualitatives et les variables quantitatives. Les variables quantitatives peuvent &#xEA;tre continues ou discr&#xE8;tes. </partie>
+      <partie> : La variable est discr&#xE8;te, l'arbre n'est pas binaire.         - B : La variable est continue et on a fait la discr&#xE9;ditation.         - C : La variable est discr&#xE8;te, l'arbre est binaire.         </partie>
+      <partie>    SI on nous demande de calculer un gain avec un attribut donn&#xE9;,  Ici, income level prend 3 valeurs : Low, Medium, High     Gain(T,I) = E(T) - (2/10E(L)+E6/10(M)+2/10E(H))</partie>
+    </question>
+    <question>
+      <partie>Dans ce cas on 14 observations, 9 oui et 5 non. Pour d&#xE9;terminer si on a oui ou non dans notre noeud, on prend celui qui est le plus grand. Exog&#xE8;ne =&gt; aidant &#xE0; la pr&#xE9;diction</partie>
+      <partie> interpr&#xE9;ter un arbre revient &#xE0; dire il y a combien de noeuds. On explique jusqu'&#xE0; nsplit=2. On a les variables qualitatives et les variables quantitatives. Les variables quantitatives peuvent &#xEA;tre continues ou discr&#xE8;tes. </partie>
+      <partie> : La variable est discr&#xE8;te, l'arbre n'est pas binaire.         - B : La variable est continue et on a fait la discr&#xE9;ditation.         - C : La variable est discr&#xE8;te, l'arbre est binaire.         </partie>
+      <partie>    SI on nous demande de calculer un gain avec un attribut donn&#xE9;,  Ici, income level prend 3 valeurs : Low, Medium, High     Gain(T,I) = E(T) - (2/10E(L)+E6/10(M)+2/10E(H))</partie>
+    </question>
+    <question>
+      <partie>Dans ce cas on 14 observations, 9 oui et 5 non. Pour d&#xE9;terminer si on a oui ou non dans notre noeud, on prend celui qui est le plus grand. Exog&#xE8;ne =&gt; aidant &#xE0; la pr&#xE9;diction</partie>
+      <partie> interpr&#xE9;ter un arbre revient &#xE0; dire il y a combien de noeuds. On explique jusqu'&#xE0; nsplit=2. On a les variables qualitatives et les variables quantitatives. Les variables quantitatives peuvent &#xEA;tre continues ou discr&#xE8;tes. </partie>
+      <partie> : La variable est discr&#xE8;te, l'arbre n'est pas binaire.         - B : La variable est continue et on a fait la discr&#xE9;ditation.         - C : La variable est discr&#xE8;te, l'arbre est binaire.         </partie>
+      <partie>    SI on nous demande de calculer un gain avec un attribut donn&#xE9;,  Ici, income level prend 3 valeurs : Low, Medium, High     Gain(T,I) = E(T) - (2/10E(L)+E6/10(M)+2/10E(H))----</partie>
+    </question>
+  </questions>
+</examen>
