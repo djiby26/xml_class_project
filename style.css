@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	padding: 2rem 2rem 0 2rem;
+}
+
+.container {
+	background-color: bisque;
+	min-height: 100vh;
+}
+
+.title {
+	font-size: 3rem;
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.title span {
+	font-weight: normal;
+}
+
+.code {
+	font-size: large;
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.code span {
+	font-weight: normal;
+}
+
+.date {
+	margin-top: 2rem;
+	font-size: 2rem;
+	font-weight: normal;
+	text-align: center;
+}
+
+.questions {
+	width: 80%;
+	min-height: fit-content;
+	margin: 2rem auto 0 auto;
+	background-color: burlywood;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.question {
+	margin-left: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.question h4 {
+	text-decoration: underline;
+	font-size: 1.5rem;
+}
+
+.question h5 {
+	margin-left: 2rem;
+	text-decoration: underline;
+	font-size: 1.3rem;
+}
+
+.question p {
+	text-align: justify;
+	width: 80%;
+	margin: 1rem auto 1rem auto;
+	font-size: 1.5rem;
+}
