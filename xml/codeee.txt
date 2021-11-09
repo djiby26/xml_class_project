@@ -1,0 +1,64 @@
+<form action="text.php" method="POST"><input name="videosharing_XML" type="hidden" value="true" />
+<table>
+<tbody>
+<tr>
+Nom Examen:
+<input name="nomexam" size="20" type="text" />
+</tr>
+<tr>
+<h3> Date de l examen</h3>
+mois:
+<input name="mois" size="20" type="text" />
+annees:
+<input name="annees" size="20" type="text" />
+</tr>
+<tr>
+Monteur
+<input name="monteur" size="20" type="text" />
+</tr>
+<tr>
+Production
+<input name="Production" size="20" type="text" />
+</tr>
+<tr>
+Nom du fichier
+<input name="xmlfileName" size="20" type="text" />
+</tr>
+</tbody>
+</table>
+<input name="B1" type="submit" value="Envoyer" />
+</form>
+<?php
+if(isset($_POST['videosharing_XML'])){
+echo "Le fichier XML est sur le ftp";
+$xmlfileName = $_POST['xmlfileName'];
+$video = $_POST['nomexam'];
+$format = $_POST['Date'];
+$monteur = $_POST['monteur'];
+$production = $_POST['production'];
+$xml_dec = "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>";
+$rootELementStart = "<examen>";
+$rootElementEnd = "</examen>";
+$xml_doc= $xml_dec;
+$xml_doc .= $rootELementStart;
+$xml_doc .= "<fichier>";
+$xml_doc .= $xmlfileName;
+$xml_doc .= "</fichier>";
+$xml_doc .= "<video>";
+$xml_doc .= $video;
+$xml_doc .= "</video>";
+$xml_doc .= "<format>";
+$xml_doc .= $format;
+$xml_doc .= "</format>";
+$xml_doc .= "<monteur>";
+$xml_doc .= $monteur;
+$xml_doc .= "</monteur>";
+$xml_doc .= "<production>";
+$xml_doc .= $production;
+$xml_doc .= "</production>";
+$xml_doc .= $rootElementEnd;
+$default_dir = "";
+$default_dir .= $xmlfileName .".xml";
+$fp = fopen($default_dir,'w');
+$write = fwrite($fp,$xml_doc);
+} ?>
